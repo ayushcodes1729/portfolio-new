@@ -1013,11 +1013,18 @@ main {
 .project-category { margin-left: 10px; }
 
 .project-title {
+  /* text-decoration: none; */
   color: var(--white-2);
   font-size: var(--fs-5);
   font-weight: var(--fw-400);
   text-transform: capitalize;
   line-height: 1.3;
+}
+
+.project-title a {
+  text-decoration: none;
+  color: var(--white-2);
+
 }
 
 .project-category {
